@@ -1,0 +1,359 @@
+
+
+body{
+    background-color:lightcyan;
+}
+
+
+
+*{
+    margin: 0;
+    padding: o;
+}
+
+::-webkit-scrollbar{
+    width: 0%;
+}
+header{
+    width: 100%;
+    height:100vh;
+    background-image: url(./image/image\ 22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}  
+                                       /* top */
+
+
+
+.top{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcoral;
+
+}
+
+.top h4{
+    margin-left: 30px;
+}
+
+.top p a{
+    margin-right: 20px;
+}
+               /* Navigation */
+
+
+   nav{
+    width: 100%;
+    height: 15hv;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:whitesmoke;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color:lightcyan;
+ }            
+ nav .logo{
+    width: 25%;
+    height: 15vh;
+    
+    
+    margin-bottom: 70px;   
+ 
+ }
+ nav .logo img{
+    width: 90%;
+    height:200px;
+    
+ 
+ }
+
+ 
+ nav .menu{
+    width: 50%;
+    height: 10vh;
+    
+    margin-right: 120px;
+ }
+ nav .menu ul{
+   
+    display: flex;
+
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 40px;
+    
+   
+ }
+ nav .menu ul a{
+    color:blue;
+    text-decoration: none;
+ }
+ nav .menu ul a:hover{
+    color: red;
+ }
+
+
+
+nav .btn button{
+ 
+    margin-right: 40px;
+    border-radius:30px;
+    background-color: orange;
+    border: 2px solid white;
+    height: 30px;
+    margin-top: 30px;
+
+}
+
+nav .btn button:hover{
+    color: red;
+}
+                  /* content */
+.content{
+    margin-top: 130px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.content h1{
+    color:darkorange;
+    
+}
+.content p{
+    color:darkorange;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bold;
+ 
+}
+.content button{
+    margin-top: 40px;  
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    border: 2px blueviolet;
+    width: 180px;
+    height: 20px;
+
+}
+.content button:hover{
+    color: blue;
+    background-color: red;
+
+}
+
+                                 /* intro */
+   
+ .intro {
+   margin-top: 40px;
+    text-align: center;
+    background-color: burlywood;
+    color: blue;
+    font-size: 25px;
+  }                               
+  .allcourses1{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 100px;
+
+  }
+  .course1 img{
+    width: 320px;
+    height: 200px;
+    margin-right: 90px;
+}
+.course2 img{
+    width: 320px;
+    height: 200px;
+    margin-right: 90px;
+}
+.course3 img{
+    width: 320px;
+    height: 200px;
+    margin-right: 40px;
+}
+.allcourses2{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.course4 img{
+    width: 320px;
+    height: 200px;
+    margin-right: 90px;
+}
+.course5 img{
+    width: 320px;
+    height: 200px;
+    margin-right: 90px;
+}
+.course6 img{
+    width: 320px;
+    height: 200px;
+    margin-right: 40px;
+}
+.course1 h3{
+    margin-left:30px ;
+    font-size: 25px;
+    color: blue;
+}
+.course1 h3:hover{
+    color:tomato;
+}
+.course1 p{
+    margin-top: 10px;
+    white-space: pre-line;
+    
+    color: chocolate;
+}
+.course2 h3{
+    margin-left:30px ;
+    font-size: 25px;
+    color: blue;
+}
+.course2 h3:hover{
+    color:tomato;
+}
+.course2 p{
+    margin-top: 10px;
+    white-space: pre-line;
+    
+    color: chocolate;
+}
+.course3 h3{
+    margin-left:30px ;
+    font-size: 25px;
+    color: blue;
+}
+.course3 h3:hover{
+    color:tomato;
+}
+.course3 p{
+    margin-top: 10px;
+    white-space: pre-line;
+    
+    color: chocolate;
+}
+.course4 h3{
+    margin-left:30px ;
+    font-size: 25px;
+    color: blue;
+}
+.course4 h3:hover{
+    color:tomato;
+}
+.course4 p{
+    margin-top: 10px;
+    white-space: pre-line;
+    
+    margin-left: 15px;
+    color: chocolate;
+}
+.course5 h3{
+    margin-left:30px ;
+    font-size: 25px;
+    padding-right: 20px;
+    color: blue;
+}
+.course5 h3:hover{
+    color:tomato;
+}
+.course5 p{
+    margin-top: 10px;
+    white-space: pre-line;
+    
+    color: chocolate;
+}
+.course6 h3{
+    margin-left:30px ;
+    font-size: 25px;
+    color: blue;
+}
+.course6 h3:hover{
+    color:tomato;
+}
+.course6 p{
+    margin-top: 10px;
+    white-space: pre-line;
+    
+    padding-left: 20px;
+    color: chocolate;
+}
+                                                /* footer */
+
+ .footer{
+    width: 100%;
+    text-align: center;
+     margin-top: 300px;
+    display: flex;
+    background-color: rgb(231, 5, 5);
+
+ }
+ .foot1{
+    width: 25%px;
+    height: fit-content;
+    margin-top: o;
+    
+    
+
+ }
+  
+ .foot1 img{
+    width: 250px;
+  
+   }
+
+ .foot2{
+    
+        width: 50%;
+        height: fit-content;
+        margin-top: 80px;
+      
+        text-align: center;
+ }
+.foot2 p a{
+    text-decoration: none;
+    color: aliceblue;
+    color: yellow;
+}
+.foot2 p a:hover{
+    color: blue;
+
+}
+.foot2 h4{
+    font-size: large;
+     color:yellow;
+    }
+
+.foot3{
+    
+    width: 25%;
+    height: 150px;
+    margin-top: 50px;
+    text-align: right;
+   }
+
+.foot3 ul li{
+    list-style: none;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.foot3 ul li a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+}
+.foot3 ul li a:hover{
+    color: blue;
+}
+.copyright{
+    text-align: center;
+    background-color: silver;
+}
